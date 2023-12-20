@@ -1,0 +1,26 @@
+[
+    {
+        "projectName":"Bahadur Social Project",
+        "photo":"https://pub-2459faede577448399a9c8c322909fc2.r2.dev/bahadur-project-small.webp",
+        "badges": ["NextJS", "Sanity.io", "TailwindCSS", "Netlify", "Mailchimp"],
+        "url": "https://bahadur-project.netlify.app/"
+    },
+    {
+        "projectName":"Te Cuidamos",
+        "photo":"https://pub-2459faede577448399a9c8c322909fc2.r2.dev/bahadur-project-small.webp",
+        "badges": ["NextJS", "Sanity.io", "TailwindCSS", "Netlify"],
+        "url":"https://te-cuidamos.netlify.app/"
+    },
+    {
+        "projectName":"Verbe Appetit",
+        "photo":"https://pub-2459faede577448399a9c8c322909fc2.r2.dev/bahadur-project-small.webp",
+        "badges": ["NextJS", "Sanity.io","ShadCN", "Tolgee", "TailwindCSS", "Vercel"],
+        "url":"https://verbeappetit.com"
+    },
+    {
+        "projectName":"Alexandra Quiros Portfolio",
+        "photo":"https://pub-2459faede577448399a9c8c322909fc2.r2.dev/alexandra-quiros.webp",
+        "badges": ["NextJS", "TailwindCSS", "Netlify"],
+        "url":"https://alexandra-quiros.netlify.app/"
+    }
+]
