@@ -5,7 +5,7 @@ import { ProjectsCard } from './landing-cards/projects-card'
 
 export const MainContent = (): React.ReactNode => {
   return (
-        <main className='grid auto-rows-[340px] grid-cols-3 gap-4 w-[1140px] mx-auto my-auto'>
+        <main className='grid grid-cols-2 md:grid-cols-3 md:auto-rows-[200px] xl:auto-rows-[340px] gap-4 w-[90vw] md:w-[600px] xl:w-[1140px] mx-auto my-auto py-4'>
             <IntroCard />
             <ProjectsCard />
             <ProfileCard />

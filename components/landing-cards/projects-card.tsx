@@ -7,7 +7,7 @@ export const ProjectsCard = (): React.ReactNode => {
   const { activeCard, advanceTab, returnTab, timer, STEPS } = useInstagramTabs()
 
   return (
-        <Card className="row-span-2 border-2 border-secondary bg-secondary flex flex-col">
+        <Card className="row-span-2 col-span-2 md:col-span-1 border-2 border-secondary bg-secondary flex flex-col order-last md:-order-none">
           <img src='/bahadur-insta.jpg'></img>
             <section className='flex w-[90%] gap-x-2 mx-auto py-6'>
                 {new Array(STEPS).fill({}).map((_, index) => {

@@ -78,6 +78,6 @@
 
 @layer components {
   .box-shadow-pop {
-    @apply hover:drop-shadow-[8px_8px_0_#003EDE] duration-200 hover:-translate-x-2 hover:-translate-y-2
+    @apply hover:md:shadow-[8px_8px_0_#003EDE] duration-200 hover:md:-translate-x-2 hover:md:-translate-y-2 md:translate-x-0 md:translate-y-0 md:shadow-none -translate-x-1 -translate-y-1 shadow-[8px_8px_#003EDE] box-border
   }
 }
