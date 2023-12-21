@@ -6,6 +6,11 @@ import { Button } from '../ui/button'
 import { Badge } from '../ui/badge'
 import { ProjectDialog } from '../project-dialog'
 import { useState } from 'react'
+import { AspectRatio } from '@radix-ui/react-aspect-ratio'
+import Image from 'next/image'
+import { SeeSiteIcon } from '@/lib/icons'
+import { ArrowRightSquare, ArrowUpRightSquare } from 'lucide-react'
+import Link from 'next/link'
 
 export const ProjectsCard = (): React.ReactNode => {
   const { activeCard, advanceTab, returnTab, percentage, steps, project, pauseTimer } = useInstagramTabs()
@@ -41,11 +46,7 @@ export const ProjectsCard = (): React.ReactNode => {
                 <div className='flex flex-wrap-reverse w-full mt-auto mb-2 px-2'>
                     {project.badges.map((badge, index) => <Badge key={badge + index} className='bg-primary text-black mr-2 mt-2'>{badge}</Badge>)}</div>
             </section>
-            <ProjectDialog open={open} setOpen={toggleProject}>
-              <div className='flex flex-col items-center'>
-                <h3 className='text-4xl text-secondary'>{project.projectName}</h3>
-              </div>
-            </ProjectDialog>
+            <ProjectDialog open={open} setOpen={toggleProject} project={project} />
         </Card>
   )
 }
