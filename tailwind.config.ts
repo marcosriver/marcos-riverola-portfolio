@@ -13,7 +13,8 @@ const config: Config = {
         secondary: '#003EDE'
       },
       animation: {
-        'rotate-photo': 'rotatePhoto 1s 1'
+        'rotate-photo': 'rotatePhoto 1s 1',
+        'spin-orbit': 'spinOrbit 10s reverse linear infinite'
       },
       keyframes: {
         rotatePhoto: {

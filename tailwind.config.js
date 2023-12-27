@@ -48,7 +48,7 @@ module.exports = {
         },
         card: {
           DEFAULT: "var(--card)",
-          foreground: "var(--card-foreground)",
+          foreground: "hsl(var(--card-foreground)",
         },
       },
       borderRadius: {
@@ -65,10 +65,15 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: 0 },
         },
+        spinOrbit: {
+          from: { transform: 'rotate(0deg)' },
+          to: { transform: 'rotate(360deg)' }
+        }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "spin-orbit": "spinOrbit 10s linear infinite"
       },
     },
   },

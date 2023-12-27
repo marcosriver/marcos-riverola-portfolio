@@ -16,14 +16,6 @@
         "videos": ["https://pub-2459faede577448399a9c8c322909fc2.r2.dev/output2.webm","https://pub-2459faede577448399a9c8c322909fc2.r2.dev/alexandra-quiros-video-2.webm"]
     },
     {
-        "projectName":"Verbe Appetit",
-        "photo":"https://pub-2459faede577448399a9c8c322909fc2.r2.dev/verbe-appetit-project.webp",
-        "badges": ["NextJS", "MySQL","Prisma","ShadCN", "Tolgee", "TailwindCSS", "Vercel", "Typescript"],
-        "url":"https://verbeappetit.com",
-        "description":"Verbe Appétit is an online game to practice french verbs conjugations. Done with NextJS 14, combining server components with client components. It is full of interactivity.",
-        "videos": ["https://pub-2459faede577448399a9c8c322909fc2.r2.dev/output2.webm","https://pub-2459faede577448399a9c8c322909fc2.r2.dev/alexandra-quiros-video-2.webm"]
-    },
-    {
         "projectName":"Alexandra Quiros Portfolio",
         "photo":"https://pub-2459faede577448399a9c8c322909fc2.r2.dev/alexandra-quiros.webp",
         "badges": ["NextJS", "TailwindCSS", "Netlify", "Typescript"],

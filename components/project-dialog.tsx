@@ -19,7 +19,7 @@ export function ProjectDialog ({ open, setOpen, project }: Props) {
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogContent className="w-[80%] h-[80%] bg-primary overflow-y-scroll" >
         <div className='grid md:grid-cols-4 h-full gap-y-4 md:gap-x-8'>
-            <section className='flex flex-grow md:col-span-3 w-full md:w-1/2 flex-col gap-y-2'>
+            <section className='flex flex-grow md:col-span-3 w-full md:w-1/2 flex-col gap-y-2 border-2 border-secondary rounded-2xl p-4'>
                 <strong className='text-2xl md:text-4xl text-secondary'>{project.projectName}</strong>
                 <p>{project.description}</p>
             </section>

@@ -4,7 +4,7 @@ import { TechGalaxy } from '../tech-galaxy'
 
 export const IntroCard = (): React.ReactNode => {
   return (
-        <Card className="border-secondary border-2 col-span-2 box-shadow-pop text-secondary pl-10 flex  overflow-clip">
+        <Card className="border-secondary border-2 col-span-2 box-shadow-pop text-secondary pl-10 flex flex-col md:flex-row w-full  overflow-clip">
             <section className='flex flex-col justify-center'>
                 <h1 className="text-[1.5rem] xl:text-[3rem] leading-none">Hello, I am
                 <span className="block font-bold">Marcos Riverola</span>
@@ -20,7 +20,7 @@ export const IntroCard = (): React.ReactNode => {
                     </div>
                 </div>
             </section>
-            {/* <TechGalaxy /> */}
+            <TechGalaxy />
         </Card>
 
   )

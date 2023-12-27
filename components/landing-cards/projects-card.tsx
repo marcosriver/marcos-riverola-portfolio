@@ -6,11 +6,6 @@ import { Button } from '../ui/button'
 import { Badge } from '../ui/badge'
 import { ProjectDialog } from '../project-dialog'
 import { useState } from 'react'
-import { AspectRatio } from '@radix-ui/react-aspect-ratio'
-import Image from 'next/image'
-import { SeeSiteIcon } from '@/lib/icons'
-import { ArrowRightSquare, ArrowUpRightSquare } from 'lucide-react'
-import Link from 'next/link'
 
 export const ProjectsCard = (): React.ReactNode => {
   const { activeCard, advanceTab, returnTab, percentage, steps, project, pauseTimer } = useInstagramTabs()
