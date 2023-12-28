@@ -13,7 +13,7 @@ export const TechGalaxy = (): React.ReactNode => {
   }, [])
 
   return (
-    <section className='h-[300px] w-[300px] md:ml-auto md:my-auto mt-auto  translate-y-1/2 md:translate-y-0 md:translate-x-1/2'>
+    <section className='h-[300px] w-[300px] md:ml-auto md:my-auto mt-auto absolute bottom-0 md:bottom-auto md:right-0 translate-y-1/2  md:translate-y-0 md:translate-x-1/2'>
       <div className='h-[300px] w-[300px] rounded-full border-secondary border-2 absolute animate-[spin_10s_linear_infinite] '>
          <img className='absolute top-1/2 -ml-6 -mt-6 h-12 w-12 animate-[spin_10s_reverse_linear_infinite] ' src={'https://pub-2459faede577448399a9c8c322909fc2.r2.dev/js.webp'} />
          <img className='absolute left-1/2 -ml-6 -mt-6 h-12 w-12 animate-[spin_10s_reverse_linear_infinite]' src={'https://pub-2459faede577448399a9c8c322909fc2.r2.dev/react.webp'} />
@@ -28,7 +28,7 @@ export const TechGalaxy = (): React.ReactNode => {
       </div>
       <div style={{ transform: `translate(-50%,-50%) rotate(${degrees + 120}deg)` }} className='h-[100px] w-[100px] absolute left-1/2 top-1/2 rounded-full border-secondary border-2 '>
          <img style={{ transform: `rotate(${-degrees - 120}deg)` }} className='absolute top-1/2 -ml-6 -mt-6 h-12 w-12 ' src={'https://pub-2459faede577448399a9c8c322909fc2.r2.dev/github.webp'} />
-         <img style={{ transform: `rotate(${-degrees - 120}deg)` }} className='absolute top-1/2 right-0 -mr-6 -mt-6 h-12 w-12 ' src={'https://pub-2459faede577448399a9c8c322909fc2.r2.dev/shadcn.webp'} />
+         <img style={{ transform: `rotate(${-degrees - 120}deg)` }} className='absolute top-1/2 right-0 -mr-6 -mt-6 h-12 w-12 ' src={'https://pub-2459faede577448399a9c8c322909fc2.r2.dev/github.webp'} />
       </div>
     </section>
   )
