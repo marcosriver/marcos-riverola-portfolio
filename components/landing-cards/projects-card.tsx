@@ -8,7 +8,7 @@ import { ProjectDialog } from '../project-dialog'
 import { useState } from 'react'
 
 export const ProjectsCard = (): React.ReactNode => {
-  const { activeCard, advanceTab, returnTab, percentage, steps, project, pauseTimer } = useInstagramTabs()
+  const { activeCard, advanceTab, returnTab, percentage, steps, project, pauseTimer, projectsJson } = useInstagramTabs()
 
   const [open, setOpen] = useState(false)
 
@@ -41,7 +41,9 @@ export const ProjectsCard = (): React.ReactNode => {
                 <div className='flex flex-wrap-reverse w-full mt-auto mb-2 px-2'>
                     {project.badges.map((badge, index) => <Badge key={badge + index} className='bg-primary text-black mr-2 mt-2'>{badge}</Badge>)}</div>
             </section>
-            <ProjectDialog open={open} setOpen={toggleProject} project={project} />
+            <ProjectDialog otherProjects={projectsJson.map((project, index) => {
+              return { id: index, thumbnail: project.smallThumbnail }
+            })} open={open} setOpen={toggleProject} project={project} />
         </Card>
   )
 }

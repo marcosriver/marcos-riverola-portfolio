@@ -5,4 +5,5 @@ interface Project {
   url: string
   description: string
   videos: string[]
+  smallThumbnail: string
 }

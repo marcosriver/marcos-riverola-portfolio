@@ -1,26 +1,54 @@
 [
     {
-        "projectName":"Bahadur Social Project",
-        "photo":"https://pub-2459faede577448399a9c8c322909fc2.r2.dev/bahadur-project-small.webp",
-        "badges": ["NextJS", "Sanity.io", "TailwindCSS", "Netlify", "Mailchimp"],
+        "projectName": "Bahadur Social Project",
+        "photo": "https://pub-2459faede577448399a9c8c322909fc2.r2.dev/bahadur-project-small.webp",
+        "badges": [
+            "NextJS",
+            "Sanity.io",
+            "TailwindCSS",
+            "Netlify",
+            "Mailchimp"
+        ],
         "url": "https://bahadur-project.netlify.app/",
-        "description":"Te cuidamos is a project based in Costa Rica that aims to help older people in serveral different ways, from at home support, to centers to retire.",
-        "videos": ["https://pub-2459faede577448399a9c8c322909fc2.r2.dev/output2.webm","https://pub-2459faede577448399a9c8c322909fc2.r2.dev/alexandra-quiros-video-2.webm"]
+        "description": "Te cuidamos is a project based in Costa Rica that aims to help older people in serveral different ways, from at home support, to centers to retire.",
+        "videos": [
+            "https://pub-2459faede577448399a9c8c322909fc2.r2.dev/output2.webm",
+            "https://pub-2459faede577448399a9c8c322909fc2.r2.dev/alexandra-quiros-video-2.webm"
+        ],
+        "smallThumbnail": "https://pub-2459faede577448399a9c8c322909fc2.r2.dev/bahadur-small.webp"
     },
     {
-        "projectName":"Te Cuidamos",
-        "photo":"https://pub-2459faede577448399a9c8c322909fc2.r2.dev/te-cuidamos-project.webp",
-        "badges": ["NextJS", "Sanity.io", "TailwindCSS", "Netlify"],
-        "url":"https://te-cuidamos.netlify.app/",
-        "description":"Te cuidamos is a project based in Costa Rica that aims to help older people in serveral different ways, from at home support, to centers to retire.",
-        "videos": ["https://pub-2459faede577448399a9c8c322909fc2.r2.dev/output2.webm","https://pub-2459faede577448399a9c8c322909fc2.r2.dev/alexandra-quiros-video-2.webm"]
+        "projectName": "Te Cuidamos",
+        "photo": "https://pub-2459faede577448399a9c8c322909fc2.r2.dev/te-cuidamos-project.webp",
+        "badges": [
+            "NextJS",
+            "Sanity.io",
+            "TailwindCSS",
+            "Netlify"
+        ],
+        "url": "https://te-cuidamos.netlify.app/",
+        "description": "Te cuidamos is a project based in Costa Rica that aims to help older people in serveral different ways, from at home support, to centers to retire.",
+        "videos": [
+            "https://pub-2459faede577448399a9c8c322909fc2.r2.dev/output2.webm",
+            "https://pub-2459faede577448399a9c8c322909fc2.r2.dev/alexandra-quiros-video-2.webm"
+        ],
+        "smallThumbnail": "https://pub-2459faede577448399a9c8c322909fc2.r2.dev/bahadur-small.webp"
     },
     {
-        "projectName":"Alexandra Quiros Portfolio",
-        "photo":"https://pub-2459faede577448399a9c8c322909fc2.r2.dev/alexandra-quiros.webp",
-        "badges": ["NextJS", "TailwindCSS", "Netlify", "Typescript"],
-        "url":"https://alexandra-quiros.netlify.app/",
-        "description":"Alexandra Quirós is a UI/UX designer that needed a web portoflio to showcase her projects.",
-        "videos": ["https://pub-2459faede577448399a9c8c322909fc2.r2.dev/output2.webm","https://pub-2459faede577448399a9c8c322909fc2.r2.dev/alexandra-quiros-video-2.webm"]
+        "projectName": "Alexandra Quiros Portfolio",
+        "photo": "https://pub-2459faede577448399a9c8c322909fc2.r2.dev/alexandra-quiros.webp",
+        "badges": [
+            "NextJS",
+            "TailwindCSS",
+            "Netlify",
+            "Typescript"
+        ],
+        "url": "https://alexandra-quiros.netlify.app/",
+        "description": "Alexandra Quirós is a UI/UX designer that needed a web portoflio to showcase her projects.",
+        "videos": [
+            "https://pub-2459faede577448399a9c8c322909fc2.r2.dev/output2.webm",
+            "https://pub-2459faede577448399a9c8c322909fc2.r2.dev/alexandra-quiros-video-2.webm"
+        ],
+        "smallThumbnail": "https://pub-2459faede577448399a9c8c322909fc2.r2.dev/bahadur-small.webp"
     }
 ]

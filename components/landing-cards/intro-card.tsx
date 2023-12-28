@@ -1,6 +1,7 @@
 import { GithubIcon, LinkedInIcon } from '@/lib/icons'
 import { Card } from '../ui/card'
 import { TechGalaxy } from '../tech-galaxy'
+import Link from 'next/link'
 
 export const IntroCard = (): React.ReactNode => {
   return (
@@ -13,10 +14,12 @@ export const IntroCard = (): React.ReactNode => {
                 <p className="text-[0.8rem] xl:text-[1.2rem]">I create incredible webistes</p>
                 <div className="flex gap-x-4 py-2 pb-8">
                     <div className="hover:cursor-pointer hover:scale-110">
-                        <GithubIcon className='h-[1.8rem] w-[1.8rem] xl:h-[2rem] xl:w-[2rem]'/>
+                        <Link target='_blank' rel='noopener noreferer' href="https://github.com/marcosriver">
+                            <GithubIcon className='h-[1.8rem] w-[1.8rem] xl:h-[2rem] xl:w-[2rem]'/>
+                        </Link>
                     </div>
                     <div className="hover:cursor-pointer hover:scale-110">
-                        <LinkedInIcon className='h-[1.8rem] w-[1.8rem] xl:h-[2rem] xl:w-[2rem]'/>
+                        <Link href='https://www.linkedin.com/in/marcos-riverola-errando/' target='_blank' rel='noopener noreferer'><LinkedInIcon className='h-[1.8rem] w-[1.8rem] xl:h-[2rem] xl:w-[2rem]'/></Link>
                     </div>
                 </div>
             </section>

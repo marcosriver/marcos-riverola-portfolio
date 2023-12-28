@@ -38,5 +38,5 @@ export const useInstagramTabs = () => {
     setTime(0)
   }
 
-  return { activeCard, advanceTab, returnTab, timer, project, steps, percentage, pauseTimer }
+  return { activeCard, advanceTab, returnTab, timer, project, steps, percentage, pauseTimer, projectsJson }
 }
