@@ -4,6 +4,7 @@ import {
 } from '@/components/ui/dialog'
 import { AspectRatio } from '@radix-ui/react-aspect-ratio'
 import { Badge } from './ui/badge'
+import Link from 'next/link'
 
 interface Props {
   open: boolean
@@ -24,12 +25,15 @@ export function ProjectDialog ({ open, setOpen, project, otherProjects }: Props)
                 <p>{project.description}</p>
               </div>
             </section>
-            <section className='flex flex-col gap-y-4'>
+            <section className='flex flex-col gap-y-12 py-8 xl:py-0 xl:gap-y-16'>
             {project.videos.map((video, index) => {
               return (
-                <AspectRatio key={index} className='' ratio={16 / 9}>
-                    <video autoPlay muted playsInline loop className='rounded-2xl' src={video}/>
-                </AspectRatio>
+                <div className='relative border-2 border-secondary rounded-2xl p-2 xl:p-8 box-shadow-constant w-[calc(100%-8px)]' key={index}>
+                  <AspectRatio className=' rounded-2xl relative' ratio={16 / 9}>
+                      <video autoPlay muted playsInline loop className='rounded-2xl w-full h-full object-cover' src={video}/>
+                  </AspectRatio>
+                  <Link href={project.url} target='_blank' rel="noopener noreferer"><div className='absolute -top-6 xl:-top-10 left-8 z-10 rounded-t-2xl bg-secondary w-[50%] xl:w-[250px] xl:h-[40px] grid place-items-center'><p className='text-primary'>See Website</p></div></Link>
+                </div>
               )
             })}
           </section>
