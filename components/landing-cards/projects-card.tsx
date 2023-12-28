@@ -18,8 +18,8 @@ export const ProjectsCard = (): React.ReactNode => {
   }
 
   return (
-        <Card className="row-span-2 col-span-2 md:col-span-1 border-2 border-secondary bg-secondary flex flex-col order-last md:-order-none relative overflow-clip">
-            <img className='object-contain absolute z-10 rounded-2xl' src={project.photo}></img>
+        <Card className=" min-h-fit row-span-2 col-span-2 md:col-span-1 border-2 border-secondary bg-secondary flex flex-col order-last md:-order-none relative overflow-clip">
+            <img className='object-contain relative z-10 rounded-2xl' src={project.photo}></img>
             <section className='flex w-[90%] gap-x-2 mx-auto py-6 absolute top-0 z-20 left-1/2 -translate-x-1/2'>
                 {new Array(steps).fill({}).map((_, index) => {
                   return (
