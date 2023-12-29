@@ -11,9 +11,10 @@ interface Props {
   setOpen: () => void
   project: Project
   otherProjects: Array<{ id: number, thumbnail: string }>
+  setActiveProject: (id: number) => void
 }
 
-export function ProjectDialog ({ open, setOpen, project, otherProjects }: Props) {
+export function ProjectDialog ({ open, setOpen, project, otherProjects, setActiveProject }: Props) {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogContent className="w-[80%] h-[80%] bg-primary overflow-y-scroll" >
@@ -50,7 +51,7 @@ export function ProjectDialog ({ open, setOpen, project, otherProjects }: Props)
                 <strong className='text-2xl xl:text-4xl text-secondary'>+ projects</strong>
                 <div className='grid grid-cols-1 gap-4'>
                   {otherProjects.map((project, index) => {
-                    return <img key={index} className='object-contain rounded-2xl cursor-pointer' src={project.thumbnail}></img>
+                    return <img onClick={() => { setActiveProject(project.id) }} key={index} className='object-contain rounded-2xl cursor-pointer' src={project.thumbnail}></img>
                   })}
                 </div>
               </div>

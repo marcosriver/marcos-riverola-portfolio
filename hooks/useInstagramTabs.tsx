@@ -28,6 +28,7 @@ export const useInstagramTabs = () => {
   useEffect(() => {
     setProject(projectsJson[activeCard])
   }, [activeCard])
+
   const advanceTab = (): void => {
     setActiveCard(prev => prev === steps - 1 ? 0 : prev + 1)
     setTime(0)
@@ -38,5 +39,5 @@ export const useInstagramTabs = () => {
     setTime(0)
   }
 
-  return { activeCard, advanceTab, returnTab, timer, project, steps, percentage, pauseTimer, projectsJson }
+  return { activeCard, advanceTab, returnTab, timer, project, steps, percentage, pauseTimer, projectsJson, setActiveCard }
 }
