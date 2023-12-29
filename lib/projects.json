@@ -12,8 +12,9 @@
         "url": "https://bahadur-project.netlify.app/",
         "description": "Bahadur Social Project aims to contribue to education in Nepal",
         "videos": [
-            "https://assets.marcosriverola.me/output2.webm",
-            "https://assets.marcosriverola.me/alexandra-quiros-video-2.webm"
+            "https://assets.marcosriverola.me/bahadur-landing-small.webm",
+            "https://assets.marcosriverola.me/bahadur-form-small.webm",
+            "https://assets.marcosriverola.me/bahadur-proyectos-small.webm"
         ],
         "smallThumbnail": "https://assets.marcosriverola.me/bahadur-small.webp"
     },
@@ -29,8 +30,8 @@
         "url": "https://te-cuidamos.netlify.app/",
         "description": "Te cuidamos is a project based in Costa Rica that aims to help older people in serveral different ways, from at home support, to centers to retire.",
         "videos": [
-            "https://assets.marcosriverola.me/output2.webm",
-            "https://assets.marcosriverola.me/alexandra-quiros-video-2.webm"
+            "https://assets.marcosriverola.me/te-cuidamos-landing-small.webm",
+            "https://assets.marcosriverola.me/te-cuidamos-servicios-small.webm"
         ],
         "smallThumbnail": "https://assets.marcosriverola.me/te-cuidamos-small.webp"
     },
