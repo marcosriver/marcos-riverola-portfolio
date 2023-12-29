@@ -3,7 +3,7 @@
 import { useGalleryColumns } from './useGalleryColumns'
 
 export const PhotosGalery = ({ list }: { list: [] }) => {
-  const { columns, limit } = useGalleryColumns()
+  const { columns, limit } = useGalleryColumns({ length: list.length })
 
   return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 gap-4">

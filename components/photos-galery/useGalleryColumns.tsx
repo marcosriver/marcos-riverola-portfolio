@@ -1,6 +1,6 @@
 import useWindowSize from '@/hooks/useWindowSize'
 
-export const useGalleryColumns = () => {
+export const useGalleryColumns = ({ length }: { length: number }) => {
   const { width } = useWindowSize()
 
   let numberOfColumns
@@ -16,7 +16,7 @@ export const useGalleryColumns = () => {
   const columns = new Array(numberOfColumns).fill({})
 
   // 25 -->
-  const limit = Math.floor(list.length / columns.length)
+  const limit = Math.floor(length / columns.length)
 
   return { columns, limit }
 }
