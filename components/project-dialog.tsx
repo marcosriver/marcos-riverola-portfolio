@@ -30,7 +30,7 @@ export function ProjectDialog ({ open, setOpen, project, otherProjects }: Props)
               return (
                 <div className='relative border-2 border-secondary rounded-2xl p-2 xl:p-8 box-shadow-constant w-[calc(100%-8px)]' key={index}>
                   <AspectRatio className=' rounded-2xl relative' ratio={16 / 9}>
-                      <video autoPlay muted playsInline loop className='rounded-2xl w-full h-full object-cover' src={video}/>
+                      <video autoPlay playsInline={true} loop muted className='rounded-2xl w-full h-full object-cover' src={video}/>
                   </AspectRatio>
                   <Link href={project.url} target='_blank' rel="noopener noreferer"><div className='absolute -top-6 xl:-top-10 left-8 z-10 rounded-t-2xl bg-secondary w-[50%] xl:w-[250px] xl:h-[40px] grid place-items-center'><p className='text-primary'>See Website</p></div></Link>
                 </div>
