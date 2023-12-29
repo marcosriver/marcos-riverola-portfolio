@@ -13,7 +13,7 @@ export const PhotosGalery = ({ list }: { list: [] }) => {
                     {list.slice(index * limit, (index * limit) + limit).map((image, i) => {
                       return (
                         <div key={index + i} className="block w-full h-fit">
-                            <img loading="lazy" className="h-full w-full rounded-lg " src={`${process.env.NEXT_PUBLIC_IMAGE_URL + image.Key}`} alt=""/>
+                            <img loading="lazy" className="h-full w-full rounded-lg " src={`${process.env.NEXT_PUBLIC_GALLERY_BUCKET_URL + image.Key}`} alt=""/>
                         </div>
                       )
                     })}
