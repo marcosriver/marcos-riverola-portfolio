@@ -5,8 +5,8 @@ import Link from 'next/link'
 
 export const IntroCard = (): React.ReactNode => {
   return (
-        <Card className="border-secondary border-2 col-span-2 box-shadow-pop text-secondary flex flex-col md:flex-row w-full items-center  overflow-clip pb-[150px] md:pb-0">
-            <section className='flex flex-col justify-center my-12 md:px-4 xl:px-12'>
+        <Card className="border-secondary border-2 col-span-2 box-shadow-pop text-secondary flex flex-col md:flex-row w-full items-center overflow-clip pb-[150px] md:pb-0">
+            <section className='flex flex-col justify-center my-12 px-8 xl:px-12'>
                 <h1 className="text-[3rem] md:text-[1rem] xl:text-[3rem] leading-none">Hello, I am
                 <span className="block font-bold">Marcos Riverola</span>
                 </h1>

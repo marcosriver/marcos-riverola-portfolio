@@ -15,7 +15,5 @@ export const PhotosGaleryWrapper = async () => {
 
   const list = await S3.send(new ListObjectsV2Command({ Bucket: `${process.env.NEXT_PUBLIC_PHOTOGRAPY_PORFOLIO_BUCKET_NAME}` }))
 
-  console.log(list)
-
   return (<PhotosGalery list={list.Contents}/>)
 }
