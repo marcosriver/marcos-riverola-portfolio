@@ -2,6 +2,7 @@ import { IntroCard } from './landing-cards/intro-card'
 import { PhotosCard } from './landing-cards/photos-card'
 import { ProfileCard } from './landing-cards/profile-card'
 import { ProjectsCard } from './landing-cards/projects-card'
+import { PhotosGaleryWrapper } from './photos-galery/photos-galery-wrapper'
 
 export const MainContent = (): React.ReactNode => {
   return (
@@ -9,7 +10,9 @@ export const MainContent = (): React.ReactNode => {
             <IntroCard />
             <ProjectsCard />
             <ProfileCard />
-            <PhotosCard />
+            <PhotosCard>
+              <PhotosGaleryWrapper/>
+            </PhotosCard>
         </main>
   )
 }

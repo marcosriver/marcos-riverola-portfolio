@@ -1,11 +1,10 @@
 'use client'
 
 import { Card } from '../ui/card'
-import { useState } from 'react'
-import { PhotosGalery } from '../photos-galery'
+import { type PropsWithChildren, useState } from 'react'
 import { Dialog, DialogContent } from '../ui/dialog'
 
-export const PhotosCard = (): React.ReactNode => {
+export const PhotosCard = ({ children }: PropsWithChildren): React.ReactNode => {
   const [open, setOpen] = useState(false)
 
   return (
@@ -18,7 +17,7 @@ export const PhotosCard = (): React.ReactNode => {
         </Card>
         <Dialog open={open} onOpenChange={setOpen}>
             <DialogContent className="w-[80%] h-[80%] bg-primary overflow-scroll">
-              <PhotosGalery/>
+              {children}
             </DialogContent>
           </Dialog>
       </>
