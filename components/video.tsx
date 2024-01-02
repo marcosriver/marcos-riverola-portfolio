@@ -15,5 +15,5 @@ export const Video = ({ video }: { video: string }) => {
     refVideo.current.muted = true
   }, [])
 
-  return <video ref={refVideo} autoPlay playsInline loop muted className='rounded-2xl w-full h-full object-cover' src={video}/>
+  return <video ref={refVideo} video autoPlay loop muted playsinline className='rounded-2xl w-full h-full object-cover' src={video}/>
 }

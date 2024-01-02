@@ -25,7 +25,7 @@ export const IntroCard = (): React.ReactNode => {
                     <Link href='https://www.linkedin.com/in/marcos-riverola-errando/' target='_blank' rel='noopener noreferer'><LinkedInIcon className='h-[1.8rem] w-[1.8rem] xl:h-[2rem] xl:w-[2rem]'/></Link>
                 </div>
                 <Button className=' bg-secondary text-primary h-[1.8rem] xl:h-[2rem] hover:scale-110 rounded-md ' asChild>
-                    <Link target='_blank' rel="noopener noreferer" href={`${process.env.NEXT_PUBLIC_ASSETS_BUCKET_URL}cv+-+Marcos+Riverola+-+EN.pdf`}>See CV</Link>
+                    <Link target='_blank' rel="noopener noreferer" href={`${process.env.NEXT_PUBLIC_ASSETS_BUCKET_URL}CV - Marcos Riverola - English.pdf`}>See CV</Link>
                 </Button>
             </div>
         </section>
