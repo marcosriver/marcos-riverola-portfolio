@@ -14,7 +14,7 @@ export const IntroCard = (): React.ReactNode => {
             <span className="block font-bold">Marcos Riverola</span>
             </h1>
             <h2 className="text-[1.8rem] md:text-[1.2rem] xl:text-[2rem] font-bold">Full Stack Developer</h2>
-            <p className="text-[0.8rem] xl:text-[1.2rem]">I create incredible webistes</p>
+            <p className="text-[0.8rem] xl:text-[1.2rem]">I create incredible websites</p>
             <div className="flex gap-x-4 py-2 pb-8">
                 <div className="hover:cursor-pointer hover:scale-110">
                     <Link target='_blank' rel='noopener noreferer' href="https://github.com/marcosriver">
